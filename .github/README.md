@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-pinpoint-sms-voice`](https://www.npmjs.com/package/@aws-sdk/client-pinpoint-sms-voice/v/3.198.0).
+[`@aws-sdk/client-pinpoint-sms-voice`](https://www.npmjs.com/package/@aws-sdk/client-pinpoint-sms-voice/v/3.199.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pinpoint-sms-voice@3.198.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pinpoint-sms-voice@3.199.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-d7dFL1+3HbRP0f7x8r1ZBR+vZyFJxjmrWh33aaOV7cTRq6u8l7uGzIkkYP5KR7OW
+sha384-xhpsg7sIc2RDFTNh9xg7m647zicSth6BwUBwVb1d5w1lwDSgXcq3m13aeXC0qGIa
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-pinpoint-sms-voice": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pinpoint-sms-voice@3.198.0/index.min.mjs"
+            "@aws-sdk/client-pinpoint-sms-voice": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pinpoint-sms-voice@3.199.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pinpoint-sms-voice@3.198.0/index.min.mjs": "sha384-d7dFL1+3HbRP0f7x8r1ZBR+vZyFJxjmrWh33aaOV7cTRq6u8l7uGzIkkYP5KR7OW"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pinpoint-sms-voice@3.199.0/index.min.mjs": "sha384-xhpsg7sIc2RDFTNh9xg7m647zicSth6BwUBwVb1d5w1lwDSgXcq3m13aeXC0qGIa"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-pinpoint-sms-voice": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pinpoint-sms-voice@3.198.0/index.min.mjs"
+                        "@aws-sdk/client-pinpoint-sms-voice": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pinpoint-sms-voice@3.199.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pinpoint-sms-voice@3.198.0/index.min.mjs": "sha384-d7dFL1+3HbRP0f7x8r1ZBR+vZyFJxjmrWh33aaOV7cTRq6u8l7uGzIkkYP5KR7OW"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pinpoint-sms-voice@3.199.0/index.min.mjs": "sha384-xhpsg7sIc2RDFTNh9xg7m647zicSth6BwUBwVb1d5w1lwDSgXcq3m13aeXC0qGIa"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.198.0`)
+* Always pin to a specific version (`@3.199.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-pinpoint-sms-voice/blob/refs/tags/3.198.0/LICENSE
+https://github.com/cloud-sdk-builds/client-pinpoint-sms-voice/blob/refs/tags/3.199.0/LICENSE
 ```
 
 ---
